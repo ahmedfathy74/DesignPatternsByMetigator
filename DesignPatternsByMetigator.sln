@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsByMetigator", "DesignPatternsByMetigator\DesignPatternsByMetigator.csproj", "{9D224CF3-720A-4939-A859-34066F755EE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsByMetigator", "DesignPatternsByMetigator\DesignPatternsByMetigator.csproj", "{9D224CF3-720A-4939-A859-34066F755EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDP", "SingletonDP\SingletonDP.csproj", "{0FE584EF-C741-48C9-9C1A-D20E88752E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDP", "SingletonDP\SingletonDP.csproj", "{0FE584EF-C741-48C9-9C1A-D20E88752E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.NotThreadSafe", "Singleton.NotThreadSafe\Singleton.NotThreadSafe.csproj", "{5F7DDA80-3013-4A4C-AC92-4412F346A620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.NotThreadSafe", "Singleton.NotThreadSafe\Singleton.NotThreadSafe.csproj", "{5F7DDA80-3013-4A4C-AC92-4412F346A620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.ThreadSafeUsingLock", "Singleton.ThreadSafeUsingLock\Singleton.ThreadSafeUsingLock.csproj", "{F2B3DF23-1BCE-4CF6-849F-BA05ADFC1035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.ThreadSafeUsingLock", "Singleton.ThreadSafeUsingLock\Singleton.ThreadSafeUsingLock.csproj", "{F2B3DF23-1BCE-4CF6-849F-BA05ADFC1035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.SingletonEagerLoading", "Singleton.SingletonEagerLoading\Singleton.SingletonEagerLoading.csproj", "{224D36E1-35A6-45F1-A41C-F7B708F69B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.SingletonEagerLoading", "Singleton.SingletonEagerLoading\Singleton.SingletonEagerLoading.csproj", "{224D36E1-35A6-45F1-A41C-F7B708F69B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.SingletonLazyLoading", "Singleton.SingletonLazyLoading\Singleton.SingletonLazyLoading.csproj", "{A11DD2D2-93E0-4A70-BE62-7DEB62CE9A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.SingletonLazyLoading", "Singleton.SingletonLazyLoading\Singleton.SingletonLazyLoading.csproj", "{A11DD2D2-93E0-4A70-BE62-7DEB62CE9A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.DesignPattern.Before", "Factory.DesignPattern.Before\Factory.DesignPattern.Before.csproj", "{48CD6FA2-4370-4319-B4EF-778410370AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.DesignPattern.Before", "Factory.DesignPattern.Before\Factory.DesignPattern.Before.csproj", "{48CD6FA2-4370-4319-B4EF-778410370AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.DesignPattern.SimpleFactory", "Factory.DesignPattern.SimpleFactory\Factory.DesignPattern.SimpleFactory.csproj", "{AB7D9B22-B96A-42CD-8615-82F508D9AE47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.DesignPattern.SimpleFactory", "Factory.DesignPattern.SimpleFactory\Factory.DesignPattern.SimpleFactory.csproj", "{AB7D9B22-B96A-42CD-8615-82F508D9AE47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.DesignPattern.FactoryMethod", "Factory.DesignPattern.FactoryMethod\Factory.DesignPattern.FactoryMethod.csproj", "{9921D02F-CB15-495F-A7F3-399DF1271FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.DesignPattern.FactoryMethod", "Factory.DesignPattern.FactoryMethod\Factory.DesignPattern.FactoryMethod.csproj", "{9921D02F-CB15-495F-A7F3-399DF1271FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.DesignPattern.AbstractFactory", "Factory.DesignPattern.AbstractFactory\Factory.DesignPattern.AbstractFactory.csproj", "{C1773F22-FD26-4A3B-B468-90F281D47617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.DesignPattern.AbstractFactory", "Factory.DesignPattern.AbstractFactory\Factory.DesignPattern.AbstractFactory.csproj", "{C1773F22-FD26-4A3B-B468-90F281D47617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern.Before", "StrategyDesignPattern.Before\StrategyDesignPattern.Before.csproj", "{8BA67E8D-27D6-4452-8A83-C3D5C21B6C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern.After", "StrategyDesignPattern.After\StrategyDesignPattern.After.csproj", "{99298BBF-5D58-46A0-9CB7-4B6150C600C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{C1773F22-FD26-4A3B-B468-90F281D47617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1773F22-FD26-4A3B-B468-90F281D47617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1773F22-FD26-4A3B-B468-90F281D47617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA67E8D-27D6-4452-8A83-C3D5C21B6C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA67E8D-27D6-4452-8A83-C3D5C21B6C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA67E8D-27D6-4452-8A83-C3D5C21B6C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA67E8D-27D6-4452-8A83-C3D5C21B6C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99298BBF-5D58-46A0-9CB7-4B6150C600C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99298BBF-5D58-46A0-9CB7-4B6150C600C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99298BBF-5D58-46A0-9CB7-4B6150C600C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99298BBF-5D58-46A0-9CB7-4B6150C600C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
